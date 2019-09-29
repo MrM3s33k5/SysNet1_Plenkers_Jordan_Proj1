@@ -50,8 +50,8 @@ void Param::setArg(string arg){
 }
 
 void Param::clearArgs(){
-   for(int i = 0; i < argumentCount; ++i){
-      argumentVector[i] = NULL;
+   for(int i = 0; i < MAXARGS; ++i){
+      //argumentVector[i] = NULL;
    }
    argumentCount = 0;
 }

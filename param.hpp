@@ -16,9 +16,9 @@ class Param
    char *outputRedirect;          /* file name or NULL */
    int  background;               /* either 0 (false) or 1 (true) */
    int  argumentCount;            /* number of tokens in argument vector */
+
    public:
    char *argumentVector[MAXARGS]; /* array of strings */
-
    Param();
    bool isValidToken(char* token);
    void setBackground(string arguments);

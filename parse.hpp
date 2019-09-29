@@ -4,13 +4,15 @@
 #include "param.hpp"
 
 class Parse{
-   //private:
-   public:
+   private:
    Param* param;
-   
-  // public: 
+
+   public:
    Parse();
+   Param* getParam();
+   int getBackground();
    void parseCommand(std::string command);
    void printParams();
 };
 #endif
+
