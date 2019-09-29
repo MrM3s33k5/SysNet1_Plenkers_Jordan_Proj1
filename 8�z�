@@ -1,0 +1,20 @@
+total 20976
+-rw-r--r-- 1 kameron kameron     1099 Sep 29 15:00 8ôÂó
+-rw-r--r-- 1 kameron kameron        0 Sep 29 15:06 8ä’zõ
+-rwxr-xr-x 1 kameron kameron     8600 Sep 29 14:39 a.out
+-rw-r--r-- 1 kameron kameron      271 Sep 29 14:40 makefile
+-rwxr-xr-x 1 kameron kameron    30072 Sep 29 14:59 myshell
+-rw-r--r-- 1 kameron kameron    10336 Sep 29 15:04 myshell.cpp
+-rw-r--r-- 1 kameron kameron    13928 Sep 29 14:59 myshell.o
+-rw-r--r-- 1 kameron kameron     3080 Sep 29 14:40 param.cpp
+-rw-r--r-- 1 kameron kameron     1337 Sep 29 14:40 param.hpp
+-rw-r--r-- 1 kameron kameron 10841552 Sep 29 14:39 param.hpp.gch
+-rw-r--r-- 1 kameron kameron    10448 Sep 29 14:42 param.o
+-rw-r--r-- 1 kameron kameron     2204 Sep 29 14:40 parse.cpp
+-rw-r--r-- 1 kameron kameron      240 Sep 29 14:40 parse.hpp
+-rw-r--r-- 1 kameron kameron 10853872 Sep 29 14:39 parse.hpp.gch
+-rw-r--r-- 1 kameron kameron     7336 Sep 29 14:42 parse.o
+-rw-r--r-- 1 kameron kameron      101 Sep 29 14:39 README.md
+-rwxr-xr-x 1 kameron kameron     8600 Sep 29 14:39 slow
+-rw-r--r-- 1 kameron kameron      219 Sep 29 14:40 slow.cpp
+-rw-r--r-- 1 kameron kameron     1041 Sep 29 15:00 test.txt

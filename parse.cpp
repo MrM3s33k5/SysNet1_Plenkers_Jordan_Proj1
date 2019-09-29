@@ -51,6 +51,9 @@ void Parse::parseCommand(std::string command)
         if (redirectCatch.find("<") == 0)
         {
             param->setInput(redirectCatch);
+	    //*******************************************
+	    param->setArg(redirectCatch.substr(1));
+	    //
             newTok = strtok(NULL, " ,\n,\t");
       
             if(!param->isValidToken(newTok))
@@ -64,6 +67,9 @@ void Parse::parseCommand(std::string command)
         if (redirectCatch.find(">") == 0)
         {
             param->setOutput(redirectCatch);
+	    //********************************************
+	    param->setArg(redirectCatch.substr(1));
+	    //*****************************************
             newTok = strtok(NULL, " ,\n,\t");
             if(param->getBackground())
             {

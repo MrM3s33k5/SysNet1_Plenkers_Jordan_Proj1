@@ -113,13 +113,16 @@ int main(int argc, char** argv)
             // to print message in debug mode. 
             else if(cpid == 0)
             {
-                if((outFileName = parse.param->getOutputRedirect()))
+		    outFileName = parse.param->getOutputRedirect();
+                if(outFileName != NULL)
                 {   strcpy(tmpPath, cwd);
-                    outFilePath = strcat(strcat(tmpPath, "/"), outFileName);
+
+                    //outFilePath = strcat(strcat(tmpPath, "/"), outFileName);
 //                     //FIXME:  debug print statement
                     cout << "OutFile:  " << outFilePath << endl;
                     freopen(outFilePath, "w", stdout);
                     tmpPath = (char*) nullptr;
+		    fclose(stdout);
                 }
                 
                 if((inFileName = parse.param->getInputRedirect()))

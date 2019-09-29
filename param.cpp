@@ -127,8 +127,14 @@ void Param::clearArgs()
     background = 0;
     for(int i = 0; i < argumentCount; ++i)
     {
-        argumentVector[i][0] = '\0';
+        delete argumentVector[i];
     }
+
+    for(int i = 0; i < MAXARGS; ++i)
+    {
+        argumentVector[i] = new char;
+    }
+
     argumentCount = 0;
 }
 
