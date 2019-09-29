@@ -9,6 +9,8 @@ For the redirects, no spaces can be between the redirect symbol (">" or "<") and
 
 The background command ("&") can only appear at the end of command in order for the process to run in the background.
 
+To run in Debug mode, add "-Debug" at the end of command.
+
 @author Russell Plenkers
 
 @author Kameron Jordan
