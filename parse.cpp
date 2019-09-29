@@ -15,9 +15,8 @@ int Parse::getBackground(){
 void Parse::parseCommand(std::string command){
    char token[command.length()];
 
-   for (int i = 0; i < command.length(); ++i){
-      token[i] = command[i];
-   }
+   strncpy(token, command.c_str(), sizeof token);
+   token[sizeof token] = '\0';
 
    param->setBackground(command);
 
